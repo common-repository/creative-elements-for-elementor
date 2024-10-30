@@ -1,0 +1,76 @@
+/*----------------------------------------------------------------------------------------
+  Team Widget Style
+----------------------------------------------------------------------------------------*/
+
+.team-single {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.p_photo {
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  top: 45px;
+}
+
+.p_photo img {
+  max-width: 100%;
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.p_info {
+  text-align: center;
+}
+
+.s_icon_wrapper {
+  text-align: center;
+  padding: 0;
+}
+
+.s_icon_wrapper i {
+  display: inline-block;
+}
+.s_icon_wrapper li {
+  display: inline-block;
+  margin: 2px;
+}
+.s_icon_wrapper li i{
+  font-size: 1rem;
+  border-style: solid;
+}
+
+.colorbg {
+  width: 100%;
+  height: 120px;
+  display: block;
+}
+
+.gs_default{
+  background: linear-gradient(320.54deg, #00069F 0%, #120010 72.37%), linear-gradient(58.72deg, #69D200 0%, #970091 100%), linear-gradient(121.28deg, #8CFF18 0%, #6C0075 100%), linear-gradient(121.28deg, #8000FF 0%, #000000 100%), linear-gradient(180deg, #00FF19 0%, #24FF00 0.01%, #2400FF 100%), linear-gradient(52.23deg, #0500FF 0%, #FF0000 100%), linear-gradient(121.28deg, #32003A 0%, #FF4040 100%), radial-gradient(50% 72.12% at 50% 50%, #EB00FF 0%, #110055 100%);
+  background-blend-mode: screen, color-dodge, color-burn, screen, overlay, difference, color-dodge, normal;
+}
+.gs_one{
+  background: linear-gradient(115deg, #FF9797 0%, #0F0068 100%), linear-gradient(245deg, #A8FFE5 0%, #0500FF 100%), radial-gradient(100% 225% at 100% 0%, #FF003D 0%, #000000 100%), radial-gradient(90% 160% at 0% 100%, #E42C64 0%, #E42C64 30%, #614AD3 calc(30% + 1px), #614AD3 60%, #2D248A calc(60% + 1px), #2D248A 70%, #121B74 calc(70% + 1px), #121B74 100%), linear-gradient(100deg, #48466F 9%, #48466D 35%, #3D84A8 calc(35% + 1px), #3D84A8 65%, #46CDCF calc(65% + 1px), #46CDCF 70%, #ABEDD8 calc(70% + 1px), #ABEDD8 100%);
+  background-blend-mode: overlay, overlay, overlay, overlay, normal;
+}
+.gs_two{
+  background: linear-gradient(245deg, #000000 0%, #FDFF96 100%), linear-gradient(245deg, #0038FF 0%, #000000 100%), radial-gradient(100% 225% at 100% 0%, #4200FF 0%, #001169 100%), linear-gradient(245deg, #000000 0%, #FFB800 100%), radial-gradient(115% 107% at 40% 100%, #EAF5FF 0%, #EAF5FF 40%, #A9C6DE calc(40% + 1px), #A9C6DE 70%, #247E6C calc(70% + 2px), #247E6C 85%, #E4C666 calc(85% + 2px), #E4C666 100%), linear-gradient(65deg, #083836 0%, #083836 40%, #66D37E calc(40% + 1px), #66D37E 60%, #C6E872 calc(60% + 1px), #C6E872 100%);
+  background-blend-mode: overlay, screen, overlay, hard-light, overlay, normal;
+}
+.gs_three{
+  background: linear-gradient(235deg, #BABC4A 0%, #000000 100%), linear-gradient(235deg, #0026AC 0%, #282534 100%), linear-gradient(235deg, #00FFD1 0%, #000000 100%), radial-gradient(120% 185% at 25% -25%, #EEEEEE 0%, #EEEEEE 40%, #7971EA calc(40% + 1px), #7971EA 50%, #393E46 calc(50% + 1px), #393E46 70%, #222831 calc(70% + 1px), #222831 100%), radial-gradient(70% 140% at 90% 10%, #F5F5C6 0%, #F5F5C6 30%, #7DA87B calc(30% + 1px), #7DA87B 60%, #326765 calc(60% + 1px), #326765 80%, #27253D calc(80% + 1px), #27253D 100%);
+  background-blend-mode: overlay, lighten, overlay, color-burn, normal;
+}
+.gs_four{
+  background: linear-gradient(200deg, rgb(255, 255, 255) 10%, rgb(0, 6, 47) 80%), linear-gradient(110deg, rgb(255, 65, 65) 30%, rgb(0, 28, 100) 110%), radial-gradient(100% 220% at 100% 0%, rgb(128, 0, 255) 0%, rgb(255, 255, 255) 30%, rgb(0, 160, 255) 100%), linear-gradient(60deg, rgb(34, 0, 242) 0%, rgb(83, 0, 0) 100%), linear-gradient(150deg, rgb(185, 0, 255) 0%, rgb(0, 136, 123) 90%), linear-gradient(220deg, rgb(252, 0, 0) 0%, rgba(0, 50, 255, 1) 75%), linear-gradient(220deg, rgb(0, 255, 55) 0%, rgb(255, 223, 0) 70%), radial-gradient(55% 100% at 50% 0%, rgb(2, 1, 1) 0%, rgb(0, 52, 187) 100%);
+  background-blend-mode: overlay, overlay, color-burn, screen, color-burn, difference, color-dodge, normal;
+}
+.gs_five{
+  background: linear-gradient(151.47deg, #0500FF 0.49%, rgba(1, 0, 26, 0) 32.86%), linear-gradient(238.72deg, #FFFFFF 0%, #1F001C 100%), radial-gradient(100% 143.09% at 100% 0%, #000000 0%, #FFC700 100%), radial-gradient(100% 143.09% at 100% 0%, #5200FF 0%, #00113D 100%), radial-gradient(59.5% 100% at 49.32% 0%, #FF8A00 0%, #001AFF 100%), linear-gradient(121.28deg, #DBFF00 0%, #3300FF 100%), linear-gradient(121.28deg, #FF8A00 0%, #001AFF 100%), linear-gradient(180deg, #33FF00 0%, #FF0000 100%), radial-gradient(70.71% 99% at 100% 39.75%, #8000FF 0%, #FF0000 100%), radial-gradient(70.41% 100% at 50% 0%, #D5B300 0%, #00AA96 100%);
+  background-blend-mode: luminosity, soft-light, color-dodge, overlay, overlay, difference, difference, exclusion, difference, normal;
+}

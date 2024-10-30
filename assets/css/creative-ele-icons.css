@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'creative-ele-fonts';
+	src: url('./mighty-fonts/creative-ele-fonts.eot?5kiojs');
+
+	src: url('./creative-ele-fonts/creative-ele-fonts.eot?5kiojs#iefix') format('embedded-opentype'),
+		url('./creative-ele-fonts/creative-ele-fonts.ttf?5kiojs') format('truetype'),
+		url('./creative-ele-fonts/creative-ele-fonts.woff?5kiojs') format('woff'),
+		url('./creative-ele-fonts/creative-ele-fonts.svg?5kiojs#creative-ele-fonts') format('svg');
+		
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+.ce{
+	font-family: 'creative-ele-fonts' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.ce-avatar:before{
+    content: "\e971";
+}
+
+.elementor-element [class*="ce-"]:after {
+	content: "CE";
+	background: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	font-size: 10px;
+	padding: 2px 4px;
+	color: #465f71;
+	border-width: 0 1px 1px 0;
+	border-style: solid;
+	border-color: #d1dde6;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
